@@ -49,3 +49,5 @@ Open the Rich Text Editor page in the running app, use the image insert/upload f
 ## License & Support
 
 This sample is provided for demonstration purposes. For setup questions, use the project documentation.
+
+>Looking for the full Blazor Rich Text Editor component overview, features, pricing, and documentation? Visit the [Blazor Rich Text Editor](https://www.syncfusion.com/blazor-components/blazor-rich-text-editor) page.
