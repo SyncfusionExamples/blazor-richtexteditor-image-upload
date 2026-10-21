@@ -1,6 +1,5 @@
 using RichTextEditor.Components;
 using Syncfusion.Blazor;
-Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1NAaF5cWWJCf0x0RHxbf1x0ZFREallQTnVZUiweQnxTdEZiW31bcndUQ2NcWE1/Vw==");
 
 var builder = WebApplication.CreateBuilder(args);
 

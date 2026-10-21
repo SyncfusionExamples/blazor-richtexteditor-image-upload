@@ -34,7 +34,7 @@ namespace RichTextEditor.Data
                 {
                     if (UploadFiles != null)
                     {
-                        string targetPath = hostingEnv.ContentRootPath + $"{Path.DirectorySeparatorChar}wwwroot{Path.DirectorySeparatorChar}Images";
+                        string targetPath = hostingEnv.ContentRootPath + "\\wwwroot\\Images";
                         string filename = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
 
                         // Create a new directory, if it does not exists
@@ -44,7 +44,7 @@ namespace RichTextEditor.Data
                         }
 
                         // Name which is used to save the image
-                        filename = Path.Combine(targetPath, filename);
+                        filename = targetPath + $@"\{filename}";
 
                         if (!System.IO.File.Exists(filename))
                         {
