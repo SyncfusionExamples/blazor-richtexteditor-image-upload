@@ -14,8 +14,8 @@ This sample shows how to integrate image upload functionality into the Blazor Ri
 
 ## Prerequisites
 
-- Visual Studio 2022
-- .NET SDK matching the project in the solution (install via Visual Studio installer)
+- Visual Studio 2022 or later / Visual Studio Code
+- .NET 10 SDK
 
 ## Setup & Running Steps
 

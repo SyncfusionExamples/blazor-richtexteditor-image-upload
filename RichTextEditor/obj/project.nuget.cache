@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "B+G5rykUSkU=",
+  "success": true,
+  "projectFilePath": "/home/user/blazor-richtexteditor-image-upload/RichTextEditor/RichTextEditor.csproj",
+  "expectedPackageFiles": [
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.internal.assets/10.0.12/microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.buttons/35.1.41/syncfusion.blazor.buttons.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.core/35.1.41/syncfusion.blazor.core.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.data/35.1.41/syncfusion.blazor.data.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.dropdowns/35.1.41/syncfusion.blazor.dropdowns.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.inputs/35.1.41/syncfusion.blazor.inputs.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.lists/35.1.41/syncfusion.blazor.lists.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.navigations/35.1.41/syncfusion.blazor.navigations.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.notifications/35.1.41/syncfusion.blazor.notifications.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.popups/35.1.41/syncfusion.blazor.popups.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.richtexteditor/35.1.41/syncfusion.blazor.richtexteditor.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.spinner/35.1.41/syncfusion.blazor.spinner.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.splitbuttons/35.1.41/syncfusion.blazor.splitbuttons.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.blazor.themes/35.1.41/syncfusion.blazor.themes.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.licensing/35.1.41/syncfusion.licensing.35.1.41.nupkg.sha512",
+    "/home/user/.nuget/packages/syncfusion.telemetry/35.1.41/syncfusion.telemetry.35.1.41.nupkg.sha512"
+  ],
+  "logs": []
+}

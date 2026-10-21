@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.IO;
 using System.Net.Http.Headers;
@@ -34,7 +34,7 @@ namespace RichTextEditor.Data
                 {
                     if (UploadFiles != null)
                     {
-                        string targetPath = hostingEnv.ContentRootPath + "\\wwwroot\\Images";
+                        string targetPath = hostingEnv.ContentRootPath + $"{Path.DirectorySeparatorChar}wwwroot{Path.DirectorySeparatorChar}Images";
                         string filename = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
 
                         // Create a new directory, if it does not exists
@@ -44,7 +44,7 @@ namespace RichTextEditor.Data
                         }
 
                         // Name which is used to save the image
-                        filename = targetPath + $@"\{filename}";
+                        filename = Path.Combine(targetPath, filename);
 
                         if (!System.IO.File.Exists(filename))
                         {
